@@ -1,0 +1,154 @@
+{
+  "weights": [
+    {
+      "id": "1",
+      "name": "CSPM Executive Dashboard",
+      "category": [
+        {
+          "id": "1",
+          "name": "Cloud Accounts",
+          "required": false,
+          "subcategories": [
+            {
+              "name": "Subcategory A",
+              "value": 10
+            },
+            {
+              "name": "Subcategory B",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Cloud Account Risk Assessment",
+          "required": true,
+          "weight": 50,
+          "subcategories": [
+            {
+              "name": "Subcategory C",
+              "value": 5
+            },
+            {
+              "name": "Subcategory D",
+              "value": 5
+            },
+            {
+              "name": "Subcategory E",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "jaykrut",
+          "required": false,
+          "weight": "3",
+          "subcategories": [
+            {
+              "name": "jk",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "kotadiya",
+          "required": true,
+          "weight": "4",
+          "subcategories": [
+            {
+              "name": "jaykrut",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "meet",
+          "weight": "5",
+          "required": true,
+          "subcategories": [
+            {
+              "name": "meet",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "bhumil",
+          "weight": "6",
+          "required": true,
+          "subcategories": [
+            {
+              "name": "bhumil",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "kkk",
+          "weight": "7",
+          "required": true,
+          "subcategories": [
+            {
+              "name": "mmm",
+              "value": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "CWPP Dashboard",
+      "category": [
+        {
+          "id": "1",
+          "name": "Top 5 Namespace Specific Alerts",
+          "required": false,
+          "subcategories": [
+            {
+              "name": "Subcategory A",
+              "value": 10
+            },
+            {
+              "name": "Subcategory B",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Workload",
+          "required": true,
+          "weight": 50,
+          "subcategories": [
+            {
+              "name": "Subcategory C",
+              "value": 5
+            },
+            {
+              "name": "Subcategory D",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Work",
+          "required": false,
+          "weight": "3",
+          "subcategories": [
+            {
+              "name": "Workload",
+              "value": 100
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
